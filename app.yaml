@@ -9,6 +9,18 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
+- url: /js
+  static_dir: js
+
+- url: /json
+  static_dir: json
+
+- url: /css
+  static_dir: css
+
+- url: /timeglider
+  static_dir: timeglider
+
 - url: .*
   script: main.app
 
